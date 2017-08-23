@@ -1,7 +1,7 @@
 {
   "name": "gaurav_mehra",
   "version": "1.0.0",
-  "description": "Sample Flight Booking Application",
+  "description": "Sample Autocomplete Application",
   "main": "./app/js/app.js",
   "local-web-server": {
     "port": 8000
