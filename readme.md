@@ -1,6 +1,6 @@
 # README #
 
-Information about the Flight Information Project.
+Information about the Sumo Logic test for Autocomplete form component.
 
 ### How to install dependencies using npm? ###
 
