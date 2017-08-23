@@ -1,0 +1,13 @@
+@import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+
+// Import the fonts
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('./../fonts/bootstrap/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+    src: url('./../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./../fonts/bootstrap/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('./../fonts/bootstrap/glyphicons-halflings-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

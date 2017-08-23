@@ -1,0 +1,78 @@
+{
+  "name": "gaurav_mehra",
+  "version": "1.0.0",
+  "description": "Sample Flight Booking Application",
+  "main": "./app/js/app.js",
+  "local-web-server": {
+    "port": 8000
+  },
+  "scripts": {
+    "start": "ws"
+  },
+  "author": "Gaurav Mehra",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "browserify-shim": "^3.8.10",
+    "del": "^1.2.0",
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.10",
+    "gulp-cached": "^1.0.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-insert": "^0.4.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-plumber": "^0.6.6",
+    "gulp-remember": "^0.2.1",
+    "gulp-remove-lines": "~0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.4.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-shell": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-streamify": "^1.0.2",
+    "gulp-templatecache": "0.0.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-wait": "0.0.2",
+    "imagemin-pngcrush": "^4.1.0",
+    "jquery": "^2.1.4",
+    "jshint-stylish": "^2.0.1",
+    "jshint-summary": "^0.4.0",
+    "local-web-server": "^1.0.1",
+    "lumx": "^1.0.0",
+    "merge-stream": "^0.1.5",
+    "minimist": "^1.1.1",
+    "run-sequence": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-sanitize": "^1.6.5",
+    "bootstrap-sass": "^3.3.6",
+    "compass-mixins": "^0.12.10"
+  },
+  "browser": {
+    "bootstrap": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "bootstrap": {
+      "depends": [
+        "$:jQuery"
+      ]
+    }
+  }
+}
